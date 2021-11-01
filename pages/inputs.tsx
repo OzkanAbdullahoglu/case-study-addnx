@@ -24,13 +24,19 @@ export default function MainView() {
   };
 
   const handlePostData = async () => {
+    if (!input) return alert('Please enter an event value!');
     await postData({ variables: { date, int: input } });
     if (!loading && !error) router.push('/');
   };
 
   return (
     <div className={styles.inputsContainer}>
-      <Input placeholder="int value" onChange={handleInput} autoFocus />
+      <Input
+        placeholder="int value"
+        onChange={handleInput}
+        autoFocus
+        type="number"
+      />
       <a role="button" className={styles.button} onClick={handlePostData}>
         Add
       </a>
