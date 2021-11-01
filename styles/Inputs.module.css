@@ -1,0 +1,37 @@
+.button {
+  margin: 15px;
+  border-radius: 7px;
+  color: white;
+  background: #0070f3;
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+  padding: 0 2rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 50%;
+  text-align: center;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 100vh;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #ffd3d3;
+  border: 1px solid black;
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+  padding: 2rem;
+}
+
+@media (max-width: 600px) {
+  .button {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .inputsContainer {
+    width: 100vw;
+  }
+}

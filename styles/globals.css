@@ -14,3 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+input {
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+  width: 50%;
+  height: 2.5rem;
+  font-size: 18px;
+  padding: 0 1rem;
+  border-radius: 7px;
+}
+
+@media (max-width: 600px) {
+  input {
+    width: 100%;
+  }
+}

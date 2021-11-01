@@ -1,0 +1,23 @@
+.button {
+  margin: 0;
+  border-radius: 7px;
+  color: white;
+  background: #0070f3;
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+  padding: 0 2rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 150px;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.mainContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  justify-content: space-evenly;
+}
